@@ -1,0 +1,15 @@
+ var loginid=450;
+var loginidentered=450;
+var password=12345;
+var passwordentered=12345;
+if(loginid !== loginidentered)
+{
+    console.log('enter a valid id');
+ }
+else if(password !== passwordentered)
+{
+    console.log("enetr a valid password");
+}
+else{
+  console.log('Logged in successfully!!');
+}
